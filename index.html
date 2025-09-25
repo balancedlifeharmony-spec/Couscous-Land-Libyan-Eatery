@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Couscous Land - Libyan Eatery</title>
+  <meta name="description" content="Couscous Land – A modern Libyan eatery serving authentic couscous dishes for the whole family.">
+  <meta property="og:title" content="Couscous Land - Libyan Eatery">
+  <meta property="og:description" content="Authentic Libyan flavors in a modern, family-friendly setting.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Skip Link for Accessibility -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Header / Navigation -->
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">Couscous Land</h1>
+      <ul class="nav-links">
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#reservations">Reservations</a></li>
+        <li><a href="#order">Order Online</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Authentic Libyan Flavors</h2>
+      <p>Freshly made couscous dishes for the whole family.</p>
+      <a href="#order" class="btn">Order Now</a>
+    </div>
+  </section>
+
+  <main id="main">
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+      <h2>Our Menu</h2>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <h3>Classic Couscous</h3>
+          <p>Steamed couscous with tender lamb and seasonal vegetables.</p>
+        </div>
+        <div class="menu-item">
+          <h3>Vegetarian Couscous</h3>
+          <p>A hearty blend of fresh vegetables with fragrant spices.</p>
+        </div>
+        <div class="menu-item">
+          <h3>Spicy Couscous</h3>
+          <p>Couscous with harissa-marinated chicken and hot peppers.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+      <h2>Gallery</h2>
+      <div class="gallery-grid">
+        <img src="images/couscous1.jpg" alt="Traditional couscous dish">
+        <img src="images/couscous2.jpg" alt="Colorful couscous platter">
+        <img src="images/dining.jpg" alt="Family dining at Couscous Land">
+      </div>
+    </section>
+
+    <!-- Reservations Section -->
+    <section id="reservations" class="reservations">
+      <h2>Reservations</h2>
+      <form id="reservation-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" required>
+
+        <label for="date">Date</label>
+        <input type="date" id="date" required>
+
+        <label for="time">Time</label>
+        <input type="time" id="time" required>
+
+        <label for="guests">Number of Guests</label>
+        <input type="number" id="guests" min="1" max="12" required>
+
+        <button type="submit" class="btn">Book Now</button>
+      </form>
+    </section>
+
+    <!-- Online Ordering Section -->
+    <section id="order" class="order-online">
+      <h2>Order Online</h2>
+      <p>Enjoy Couscous Land at home with our delivery partners:</p>
+      <div class="order-links">
+        <a href="https://www.ubereats.com" target="_blank" class="btn">Uber Eats</a>
+        <a href="https://www.doordash.com" target="_blank" class="btn">DoorDash</a>
+        <a href="https://www.skipthedishes.com" target="_blank" class="btn">SkipTheDishes</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Couscous Land – Libyan Eatery. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
+
